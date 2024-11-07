@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi clon de Google</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        .logo {
+            display: inline-block;
+        }
+
+        .logo img {
+            width: 150px;
+            height: auto;
+        }
+
+        .search-bar {
+            display: inline-block;
+            float: right;
+        }
+
+        .search-bar input {
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        .search-bar button {
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .secciones {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .seccion {
+            width: calc(33% - 20px);
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar">
+            <button type="submit">Buscar</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="secciones">
+            <div class="seccion">
+                <h2>Sección 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="seccion">
+                <h2>Sección 2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="seccion">
+                <h2>Sección 3</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mi clon de Google</p>
+    </footer>
+
+    <script>
+        // Ejemplo de JavaScript para agregar interactividad
+        const searchInput = document.querySelector('.search-bar input');
+
+        searchInput.addEventListener('keyup', function() {
+            const searchTerm = this.value.toLowerCase();
+
+            if (searchTerm.length > 0) {
+                // Realizar una búsqueda ficticia
+                console.log('Buscando: ' + searchTerm);
+            }
+        });
+    </script>
+</body>
+</html>

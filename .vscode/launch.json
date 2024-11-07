@@ -1,0 +1,11 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open index.html",
+            "file": "c:\\Users\\kairi\\OneDrive\\Documentos\\html fab vep\\index.html"
+        }
+    ]
+}

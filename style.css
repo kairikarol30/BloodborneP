@@ -1,0 +1,115 @@
+body {
+    background-color: #000000; /* Cambia #f0f0f0 por el color que desees */
+}
+
+header {
+    background: #000000;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 23px;
+    font-family: "Sedan SC", serif;
+}
+
+.img-custom-size {
+    width: 1116px;
+    height: auto; 
+}
+
+header nav a {
+    color: #ffffff; 
+    text-decoration: none; 
+}
+
+header nav a:visited {
+    color: #ffffff; 
+}
+
+header nav a:hover {
+    color: #0a376a; 
+}
+
+header nav a:active {
+    color: #ffffff; 
+}
+
+h2 {
+    font-size: 40px; 
+    color: #ffffff;
+    font-family: "Cinzel", serif;
+    font-style: normal;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    text-align: center; 
+}
+
+p {
+    font-family: "Cormorant Garamond", serif;
+    color: #ffffff;
+    font-style: normal;
+    font-size: 18px;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    text-align: justify;
+    padding: 20px;
+}
+
+h3, h4, h5, h6 {
+    font-size: 30px; 
+    color: #ffffff;
+    font-family: "Cinzel", serif;
+    font-style: normal;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    text-align: left;
+    padding: 10px;
+}
+
+div img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px; 
+}
+
+div h3, div h4, div h5, div h6 {
+    display: inline-block;
+    vertical-align: middle;
+}
+#custom-carousel {
+    max-width: 800px; 
+    margin: 0 auto;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto; 
+    object-fit: cover; 
+}
+.frase{
+    font-family: "Great Vibes", cursive;
+    color: #ffffff;
+    font-size: 25px;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    text-align: center;
+    padding: 20px;
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.fade-out {
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}
+#blood-effect {
+    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
+}
+@media (max-width: 768px) {
+    #main-title {
+        font-size: 1.8rem;
+    }
